@@ -590,8 +590,16 @@ video {
   height: 100vh;
 }
 
+.h-19 {
+  height: 19rem;
+}
+
 .h-27 {
   height: 27rem;
+}
+
+.w-19 {
+  width: 19rem;
 }
 
 .w-27 {
@@ -665,4 +673,22 @@ video {
 .hover\:bg-rose-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(190 18 60 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:h-19 {
+    height: 19rem;
+  }
+
+  .md\:h-27 {
+    height: 27rem;
+  }
+
+  .md\:w-19 {
+    width: 19rem;
+  }
+
+  .md\:w-27 {
+    width: 27rem;
+  }
 }

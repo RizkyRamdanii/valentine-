@@ -6,9 +6,11 @@ module.exports = {
       height: {
         '100' : '100vh',
         '27' : '27rem',
+        '19' : '19rem',
       },
       width: {
         '27' : '27rem',
+        '19' : '19rem',
       },
     },
   },
